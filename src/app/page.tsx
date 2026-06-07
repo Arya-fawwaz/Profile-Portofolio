@@ -152,22 +152,8 @@ function SkillLogo({ name }: { name: string }) {
             <path d="M7 9h7M10.5 9v7M15 15.4c.6.5 1.3.8 2.1.8.9 0 1.6-.4 1.6-1.1 0-.8-.7-1-1.7-1.3-1.2-.4-2.1-.9-2.1-2.1 0-1.3 1-2.1 2.5-2.1.9 0 1.6.2 2.2.7" fill="none" stroke="currentColor" strokeLinecap="round" strokeWidth="1.4" />
           </>
         )}
-        {icon === "three" && <path d="M5 18 12 5l7 13H5Zm7-13 1.8 13M12 5 8.3 18M8.3 18l7-6.5M13.8 18 8.8 9.2" fill="none" stroke="currentColor" strokeLinejoin="round" strokeWidth="1.5" />}
-        {icon === "tailwind" && <path d="M5 11.8c1.4-3 3.1-4.4 5.3-4.4 1.3 0 2.2.5 3.2 1.5.7.7 1.3 1.1 2.1 1.1 1 0 1.9-.7 2.7-2.2-1.4 3-3.1 4.4-5.3 4.4-1.3 0-2.2-.5-3.2-1.5-.7-.7-1.3-1.1-2.1-1.1-1 0-1.9.7-2.7 2.2Zm0 4.4c1.4-3 3.1-4.4 5.3-4.4 1.3 0 2.2.5 3.2 1.5.7.7 1.3 1.1 2.1 1.1 1 0 1.9-.7 2.7-2.2-1.4 3-3.1 4.4-5.3 4.4-1.3 0-2.2-.5-3.2-1.5-.7-.7-1.3-1.1-2.1-1.1-1 0-1.9.7-2.7 2.2Z" fill="currentColor" />}
-        {icon === "framer" && <path d="M7 4h10v5h-5l5 5H7V9h5L7 4Zm0 10h5v6l-5-6Z" fill="currentColor" />}
-        {icon === "node" && <path d="M12 3.8 19 8v8l-7 4.2L5 16V8l7-4.2Zm-3.4 10.8c.9.9 1.9 1.3 3.2 1.3 1.5 0 2.6-.7 2.6-2 0-1.2-.8-1.7-2.5-2.1-1.1-.3-1.5-.5-1.5-1s.5-.8 1.2-.8c.8 0 1.5.2 2.1.8" fill="none" stroke="currentColor" strokeLinejoin="round" strokeLinecap="round" strokeWidth="1.5" />}
-        {icon === "webgl" && <path d="M12 4 5 8v8l7 4 7-4V8l-7-4Zm0 0v8m0 8v-8m0 0 7-4m-7 4-7-4m7 4 7 4m-7-4-7 4" fill="none" stroke="currentColor" strokeLinejoin="round" strokeWidth="1.5" />}
-        {icon === "graphql" && (
-          <>
-            <path d="M12 4 19 8v8l-7 4-7-4V8l7-4Z" fill="none" stroke="currentColor" strokeWidth="1.4" />
-            {[["12","4"],["19","8"],["19","16"],["12","20"],["5","16"],["5","8"]].map(([cx, cy]) => <circle key={`${cx}-${cy}`} cx={cx} cy={cy} r="1.3" fill="currentColor" />)}
-          </>
-        )}
         {icon === "postgres" && <path d="M12 4c-3.8 0-6.5 2.4-6.5 5.8 0 2.4 1.3 4.5 3.5 5.2l-1.1 4 3.5-2.5h.6c3.8 0 6.5-2.4 6.5-5.8S15.8 4 12 4Zm-1.2 5.2h2.2c1.5 0 2.5.8 2.5 2.1 0 1.4-1 2.2-2.6 2.2h-2.1V9.2Z" fill="none" stroke="currentColor" strokeLinejoin="round" strokeWidth="1.5" />}
-        {icon === "docker" && <path d="M4 13h15c-.6 3.5-3.2 5.5-7.4 5.5H9.2C6.5 18.5 4.5 16.5 4 13Zm2-4h3v3H6V9Zm4 0h3v3h-3V9Zm4 0h3v3h-3V9Zm-4-4h3v3h-3V5Zm9.1 5.3c.9-.1 1.6.2 2.2.8-.6.4-1.3.6-2.2.5" fill="none" stroke="currentColor" strokeLinejoin="round" strokeLinecap="round" strokeWidth="1.4" />}
-        {icon === "git" && <path d="M12 4 20 12l-8 8-8 8-8-8 8-8Zm-2.2 5.5 4.7 4.7M9.8 9.5v5m0-5a1.4 1.4 0 1 0 0-.1m4.7 4.8a1.4 1.4 0 1 0 0-.1" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />}
         {icon === "python" && <path d="M12.8 4H9.5C8.1 4 7 5.1 7 6.5V10h6.5c1.4 0 2.5 1.1 2.5 2.5V14h-4.8M11.2 20h3.3c1.4 0 2.5-1.1 2.5-2.5V14h-6.5C9.1 14 8 12.9 8 11.5V10h4.8M9.7 6.6h.1m4.4 10.8h.1" fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" />}
-        {icon === "socket" && <path d="M5 12h4m6 0h4M9 12a3 3 0 0 1 6 0m-9.5-4.5a9 9 0 0 1 13 0m-13 9a9 9 0 0 0 13 0" fill="none" stroke="currentColor" strokeLinecap="round" strokeWidth="1.6" />}
       </svg>
       <span className="skill-logo-mark">{mark}</span>
     </span>
