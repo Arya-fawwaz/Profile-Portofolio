@@ -295,7 +295,7 @@ export default function Home() {
 
           {/* Main Content */}
           <main className="relative z-10">
-                       <section id="home" className="min-h-screen flex items-center justify-center px-6 relative pt-20">
+                       <section id="home" className="min-h-[80vh] sm:min-h-screen flex items-center justify-center px-4 sm:px-6 relative pt-10 sm:pt-20">
               <div className="max-w-6xl mx-auto w-full px-4 sm:px-10 md:px-16">
                 <div className="flex flex-row items-center justify-between gap-10 lg:gap-24 text-left min-h-[350px] sm:min-h-[550px]">
                   <div className="flex-1 space-y-6 sm:space-y-8 py-4 sm:py-10">
@@ -519,7 +519,8 @@ export default function Home() {
             </section>
 
             {/* 3. About Me Section */}
-            <section id="about" className="section-panel py-32 relative">
+-            <section id="about" className="section-panel py-32 relative">
++            <section id="about" className="section-panel py-16 sm:py-32 relative">
               <div className="max-w-7xl mx-auto px-4 relative">
                 
                 {/* About Master Frame */}
@@ -598,7 +599,8 @@ export default function Home() {
 
 
             {/* 4. Portfolio / Projects Section - Ultra Modern Overhaul */}
-            <section id="projects" className="section-panel py-32 relative overflow-hidden">
+-            <section id="projects" className="section-panel py-32 relative overflow-hidden">
++            <section id="projects" className="section-panel py-16 sm:py-32 relative overflow-hidden">
               <div className="max-w-7xl mx-auto px-4 relative">
                 
                 {/* Decorative Tech Grid (Top Left) */}
