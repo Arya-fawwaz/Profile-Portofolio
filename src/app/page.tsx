@@ -80,6 +80,7 @@ const PROJECTS: LocalizedProject[] = [
     },
     solution: {
       en: "Utilized WebSockets for low-latency communication and implemented a reliable message queue for sensor data.",
+      id: "Menggunakan WebSockets untuk komunikasi latensi rendah dan mengimplementasikan antrean pesan yang andal untuk data sensor.",
     },
   }
 ];
